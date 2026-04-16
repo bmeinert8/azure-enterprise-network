@@ -1,0 +1,14 @@
+# Local .terraform directories and plugins (This caused your size error!)
+**/.terraform/*
+
+# Terraform state files (Never push these to GitHub!)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore variables files containing sensitive information
+*.tfvars
+*.tfvars.json
